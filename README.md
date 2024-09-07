@@ -100,10 +100,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### Changes to Make
-
-1. **Update Key File Path**: Ensure that the path to your new API key in `imageProcessor.js` matches the new JSON file you’re using.
-2. **Repository URL**: Ensure that the GitHub repository URL in the `git clone` command matches your actual repository.
-3. **License**: Verify the license section matches your project’s licensing terms.
-
-Feel free to adjust any sections based on the specifics of your project!
