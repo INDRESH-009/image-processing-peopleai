@@ -1,6 +1,3 @@
-Here’s a template for a README file for your image processing folder. You can adjust any specifics to fit your actual project details.
-
----
 
 # Image Processing for Health App
 
@@ -13,14 +10,15 @@ This folder contains the code necessary for processing images using the Google C
 - **app.js**: Sets up the Express server, handles file uploads, and processes images using the `imageProcessor.js` module.
 - **imageProcessor.js**: Contains the logic for interacting with the Google Cloud Vision API to extract text from images.
 - **uploads/**: Directory where uploaded images are temporarily stored.
+- **README.md**: Documentation file for the project.
 
 ## Installation
 
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/INDRESH-009/image-processing-peopleai.git
+   cd image-processing
    ```
 
 2. **Install Dependencies**
@@ -45,7 +43,7 @@ This folder contains the code necessary for processing images using the Google C
 
    ```javascript
    const client = new vision.ImageAnnotatorClient({
-     keyFilename: '/path/to/your/keyfile.json',
+     keyFilename: 'path/to/your/new-keyfile.json',
    });
    ```
 
@@ -99,3 +97,13 @@ If you wish to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### Changes to Make
+
+1. **Update Key File Path**: Ensure that the path to your new API key in `imageProcessor.js` matches the new JSON file you’re using.
+2. **Repository URL**: Ensure that the GitHub repository URL in the `git clone` command matches your actual repository.
+3. **License**: Verify the license section matches your project’s licensing terms.
+
+Feel free to adjust any sections based on the specifics of your project!
