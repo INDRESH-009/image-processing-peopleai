@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Yarn
+.yarn
+.yarnrc
+
+# Mac system files
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+nutrition-extraction-434817-a92664406df4.json 
